@@ -15,5 +15,5 @@ int main(){
 	
 	gettimeofday(&t2,NULL);
 	printf("Microsegundos que tarda en incrementar un millón de veces una variable: %ld\n", t2.tv_usec - t1.tv_usec);
-	return 1;
+	return 0;
 }
