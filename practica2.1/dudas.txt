@@ -1,0 +1,1 @@
+-Ejercicio 6 y 7 no se guardan los valores máximos solo lo que devuelve del error.
