@@ -16,5 +16,5 @@ int main(){
 	printf("Directorio home: %s\n", p->pw_dir);
 	printf("Descripción del usuario: %s\n", p->pw_gecos);
 	
-	return 1;
+	return 0;
 }
