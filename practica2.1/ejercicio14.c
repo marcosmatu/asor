@@ -8,5 +8,5 @@ int main(){
 	time_t t = time(NULL);
 	struct tm *time = localtime(&t);
 	printf("Estamos en el año: %d\n",time->tm_year + 1900);
-	return 1;
+	return 0;
 } 
