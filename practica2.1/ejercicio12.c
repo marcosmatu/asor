@@ -6,5 +6,5 @@
 int main(){
 	time_t t = time(NULL);
 	printf("Hora desde el Epoch en segundos: %ld\n", t);
-	return 1;
+	return 0;
 }
