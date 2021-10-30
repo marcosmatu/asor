@@ -9,5 +9,5 @@
 int main(){
 	printf("Real: %d\n", getuid());
 	printf("Efectivo: %d\n", geteuid());
-	return 1;
+	return 0;
 }
