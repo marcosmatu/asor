@@ -11,3 +11,4 @@ int main(){
 	printf("Efectivo: %d\n", geteuid());
 	return 0;
 }
+//Si el getuid y el geteuid devuelven un valor distinto signica que esta activado.
