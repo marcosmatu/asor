@@ -20,7 +20,7 @@ int main(int argc, char *argv[]){
 			case SCHED_RR:
 					printf("Esta siendo usado el planificador round robin\n");
 		}
-		if(sched_getparam(pid, &param) == -1) return -1;
+		if(sched_getparam(0, &param) == -1) return -1;
 		else{
 			printf("Prioridad: %d\n", param.sched_priority);
 			
